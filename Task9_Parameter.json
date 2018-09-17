@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountName": {
+            "value": "ignitestorageac"
+        },
+        "storageAccountKey": {
+            "value": "nad2GqARYRluJvF9GPuOFGxMKwDqQus7qmkAu6YLIJEL5366iWBVpq7MRrj/YiEAwTuFIlO7xkhbWyJyAptb0g=="
+        },
+        "SfUserName": {
+            "value": "tolikeswari.kadi@netenrich.com"
+        },
+		"SfPassword": {
+            "value": "Bjdp@107210"
+        },
+		"SfSecurityToken": {
+            "value": "Ap9hdEgarEpr3tREVgByQIzo"
+        },
+		"SfTable": {
+            "value": "Account"
+        }
+   }
+}
