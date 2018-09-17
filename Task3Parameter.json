@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "adminUsername": {
+        "value": "azureuser"
+      },
+      "sshPublicKey": {
+        "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAxju8U+gjGfQm4pOQck8awXuu+JRH80QJGdJzVy4eTgtytSHlbdr1fme5At4Sr78ujB6v8j2ZiPjDPHiotL6cGL4MIXhSJvwEaIJxwjUCbOYZdCRXCnqp4mzeySbBIkODHcXeaY6lu0iT5bniEc2IB+1ZqwaWBy4jJhyZTzS1IToUnrvgMGmjHmYZdjGRrnXy+PwD+dvvGruuB5P3GRZIe8rJTcj8pmj/7H3UoHlY0sj0bEE3QIGQDzmu79KJW1m7XQ0tW1bB459E45p6qhFmXAPaYRQVBvTfHuEuCoKTJN773TWisEeU9iMfv5PpS4oT2txfOeAdqe4N21wFTCIT/w== rsa-key-20180831"
+      },
+	  "jenkinsDnsPrefix": {
+        "value": "jenkinvm"
+      },
+      "servicePrincipalAppId": {
+        "value": "c06a2e0a-881c-424d-a88c-ba2831179cf0"
+      },
+      "servicePrincipalAppKey": {
+        "value": "8KlW9Kf8JTNM1LHU76o8TGhtY7sOUe/FFEYhazIqSlI="
+      }
+    }
+}
